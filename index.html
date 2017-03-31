@@ -8,7 +8,7 @@
     <!-- Mobile Viewport -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Most important SEO tag -->
-    <title>HTML5 | Webdesign II | GDM</title>
+    <title>Houtwolf | Graphic Design | Home</title>
     <!-- Other SEO friendly tags -->	
     <meta name="description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
     <meta name="keywords" content="HTML5, JavaScript, jQuery, CSS3">
@@ -44,6 +44,7 @@
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
     <!-- Stylesheets: App -->
+    <link rel="stylesheet" media="all" href="css/nav.css">
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
@@ -52,9 +53,53 @@
   </head>
 
   <body>
+    <nav id="main-navigation">
+    <ul>
+        <li class="active">
+            <a href="#" title="Terug naar de Homepage">home</a>
+        </li>
+        <li>
+            <a href="#" title="Afgeronden projecten">portfolio</a>
+        </li>
+        <li class="hasSubMenu">
+            <a href="#" title="Over Houtwolf en leden">over ons</a>
+                <ul>
+                    <li><a href="#" title="Graphic en webdesign">webdesign</a></li>
+                    <li><a href="#" title="Webdevelopment">webdevelopment</a></li>
+                    <li><a href="#" title="App-development">app Development</a></li>
+                    <li><a href="#" title="Webdesign">leden</a></li>
+                </ul>
+        </li>
+        <li>
+            <a href="#" title="Aanbod en diensten">Diensten</a>
+        </li>
+        <li class="hasSubMenu">
+            <a href="#" title="Contactgegevens">Contact</a>
+                <ul>
+                    <li class="hasSubmenu">
+                        <a href="#" title="ASP.NET">ASP.NET</a>
+                            <ul>
+                                <li><a href="#" title="MVC">MVC</a></li>
+                                <li><a href="#" title="Web API">Web API</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#" title="C#">C#</a></li>
+                    <li><a href="#" title="Java">Java</a></li>
+                    <li><a href="#" title="JavaScript">JavaScript</a></li>
+                </ul>
+        </li>
+        <li>
+            <a href="#" title="Laatste nieuws over ...">nieuws</a>
+        </li>
+        <li>
+            <a href="#" title="Make contact with the Webdesign II's lecturers">Contact</a>
+        </li>
+    </ul>
+</nav>
+
     <div class="intro">
-      <h1>GDM - HTML5 Template</h1>
-      <p>We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- and 3D Animations, Printing and Packaging and the whole Management of those workflows!</p>
+      <h1>Houtwolf Graphic Design Agency</h1>
+      <p>We strive for the best in Design for Print and Non-Print, Web- and App Development, Printing and Packaging and the whole Management of those workflows!</p>
     </div>
     <!-- Scripts: Vendors -->
       <!-- For example: jQuery, lodash, handlebars, ... -->

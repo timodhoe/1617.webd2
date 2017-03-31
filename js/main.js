@@ -1,3 +1,3 @@
 ;(function() {
-  alert('Welcome to the GDM Web Template developed by drdynscript!');
+  alert('Houtwolf Graphic Design Agency coming soon');
 })();
