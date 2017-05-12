@@ -54,54 +54,97 @@
   </head>
 
   <body>
+    <!-- main navigation -->  
     <nav id="main-navigation">
-    <ul>
-        <li class="active">
-            <a href="#" title="Terug naar de Homepage">home</a>
-        </li>
-        <li>
+    <!-- logo -->
+    <a id="nav-logo" href="#" title="logo, terug naar homepage"><img src="img/logo-desktop.png" alt="Logo Houtwolf"></a>
+    <!-- navigation -->
+    <ul>  
+        <li class="hasSubMenu">
             <a href="#" title="Afgeronden projecten">portfolio</a>
-        </li>
-        <li class="hasSubMenu">
-            <a href="#" title="Over Houtwolf en leden">over ons</a>
                 <ul>
-                    <li><a href="#" title="Graphic en webdesign">webdesign</a></li>
-                    <li><a href="#" title="Webdevelopment">webdevelopment</a></li>
-                    <li><a href="#" title="App-development">app Development</a></li>
-                    <li><a href="#" title="Webdesign">leden</a></li>
+                    <li><a href="#" title="Portfoliogedeelte van het vak Vormgeving">Vormgeving</a></li>
+                    <li><a href="#" title="Portfoliogedeelte van het vak Webdesign II">Webdesign</a></li>
+                    <li><a href="#" title="Portfoliogedeelte van het vak Schetsen">Schetsen</a></li>
+                    <li><a href="#" title="Portfoliogedeelte van het vak LODO II">Lay-out</a></li>
                 </ul>
         </li>
         <li>
-            <a href="#" title="Aanbod en diensten">Diensten</a>
-        </li>
-        <li class="hasSubMenu">
-            <a href="#" title="Contactgegevens">Contact</a>
-                <ul>
-                    <li class="hasSubmenu">
-                        <a href="#" title="ASP.NET">ASP.NET</a>
-                            <ul>
-                                <li><a href="#" title="MVC">MVC</a></li>
-                                <li><a href="#" title="Web API">Web API</a></li>
-                            </ul>
-                    </li>
-                    <li><a href="#" title="C#">C#</a></li>
-                    <li><a href="#" title="Java">Java</a></li>
-                    <li><a href="#" title="JavaScript">JavaScript</a></li>
-                </ul>
+            <a href="#" title="Over Houtwolf en zijn leden">over ons</a>
         </li>
         <li>
-            <a href="#" title="Laatste nieuws over ...">nieuws</a>
+            <a href="#" title="Aanbod en diensten">diensten</a>
         </li>
         <li>
-            <a href="#" title="Make contact with the Webdesign II's lecturers">Contact</a>
+            <a href="#" title="Contactgegevens">contact</a>
+
+        </li>
+        <li>
+            <a href="#" title="Nieuws">nieuws</a>
         </li>
     </ul>
 </nav>
 
-    <div class="intro">
-      <h1>Houtwolf Graphic Design Agency</h1>
-      <p>We strive for the best in Design for Print and Non-Print, Web- and App Development, Printing and Packaging and the whole Management of those workflows!</p>
+    <!-- Content -->
+
+    <div class="grid_wrapper">
+        <div class="grid_container">
+            <div class="grid_row">
+                 <div class="grid__column-6">
+                    <h1>Project:<br>Verpakking</h1>
+                    <p>Vormgeven van een artikelpromotie<br>op een verpakking van een speldoos.</p>
+                 </div>
+                 <div class="grid__column-6">
+                    <img class="imgfront" src="img/verpakking003.jpg" alt="beeld van project Verpakking">
+                 </div>
+                 <div class="grid__column-6">
+                    <img class="imgfront" src="img/roughschets0023.jpg" alt="beeld van project Techniche Tekening">
+                 </div>
+                 <div class="grid__column-6">
+                    <h1>Project:<br>Technische Tekening</h1>
+                    <p>– Een eigen ontwerp omzetten<br>naar een technische tekening</p>
+                 </div>
+                 <div class="grid__column-6">
+                    <h1>Project:<br>Festival Breda Live</h1>
+                    <p>– Ontwerpen van een typografische affiche,<br>toegangsticket en informatieboekje voor een muziekfestival.</p>
+                 </div>
+                 <div class="grid__column-6>
+                    <img class="imgfront" src="img/festival0032.jpg" alt="beeld van project Festival Breda Live">
+                 </div>
+
+
+
+
+            </div>
+        </div>
     </div>
+
+
+      <!-- Footer -->
+<div class="grid_wrapper footer-wrapper">
+	<div class="grid__container">
+		<div class="grid__row">
+			<div class="grid__column-12">
+				<footer class="footer">
+					<h1 class="hidden">Main Footer Website</h1>
+					<div class="grid__row">
+						<div class="grid__column-4">
+							Copyright
+						</div>
+						<div class="grid__column-4">
+							...
+						</div>
+						<div class="grid__column-4">
+							Developed by....
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+</div>
+
+
     <!-- Scripts: Vendors -->
       <!-- For example: jQuery, lodash, handlebars, ... -->
     <!-- Scripts: App -->

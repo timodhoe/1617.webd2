@@ -8,12 +8,11 @@ html, body {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  width: 100vw; /*view width --> zorgt ervoor dat alles de breedte en hoogte van het scherm krijgt>*/
+  height: 100vh; /*<view height>*/
+  overflow: scroll;
+  background-color: #0089DE;
   background-size: cover;
-
   color: rgba(232,234,246 ,1);
 }
 
@@ -25,4 +24,12 @@ body {
 
   background: rgba(41,182,246 ,1);
   color: rgba(1,87,155 ,1);
+}
+
+div {
+  padding: 100px 0px 0px 50px;
+}
+
+.imgfront {
+  width: 200px;
 }
