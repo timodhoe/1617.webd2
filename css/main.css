@@ -42,6 +42,47 @@ img {
   margin-bottom: 30px;
 }
 
+.block {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay .naam {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  margin: -40% 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.naam {
+  color: #fff;
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 44px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  top:0%;
+  left: 40%;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.image:hover .block{
+  opacity: 0.1;
+}
+
+.image:hover .naam {
+  opacity: 1
+}
+
 #intro-tekst {
   background-color: #DCEAF5;
   height: 500px;
@@ -222,14 +263,17 @@ iframe {
   text-decoration: none;
 }
 
-.button:hover,
-.button:active {
+.button:hover {
   background-color: #DCEAF5;
   border: 1px solid #DCEAF5;
   color: #fff;
   transition: color 0.3s ease-in,
               background-color 0.3s ease-in,
               border-color 0.3s ease-in;
+}
+
+.button:active {
+  border: 1px solid #7F7F4C;
 }
 
 #intro-vormgeving {
@@ -243,6 +287,25 @@ iframe {
   padding: 20px 40px;
 }
 
+.titel-detail {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 5px solid #fff;
+  margin: 0px 360px 30px;
+  }
+
+.tekst-detail {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px
+}
 
 /* footer css */
 
