@@ -11,9 +11,9 @@ body {
   width: 100vw; /*view width --> zorgt ervoor dat alles de breedte en hoogte van het scherm krijgt>*/
   height: 100vh; /*<view height>*/
   overflow: scroll;
-  background-color: #0089DE;
+  background-color: #F5F5DC;
   background-size: cover;
-  color: rgba(232,234,246 ,1);
+  color: rgba(0,0,0 ,1);
 }
 
 .intro {
@@ -26,10 +26,241 @@ body {
   color: rgba(1,87,155 ,1);
 }
 
-div {
-  padding: 100px 0px 0px 50px;
+img {
+  border-style: none;
 }
 
-.imgfront {
-  width: 200px;
+.projecten {
+  padding: 193px 15px;
+}
+
+.blockproject {
+  display: block;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+#intro-tekst {
+  background-color: #DCEAF5;
+  height: 500px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 40px 40px;
+}
+
+#diensten-tekst {
+  background-color: #DCEAF5;
+  height: 370px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 420;
+  font-size: 24px;
+  line-height: 200%;
+  padding: 40px 40px;
+  text-transform: uppercase;
+}
+
+.tekstblok {
+  display: block;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 30px;
+  padding: 40px 40px;
+  line-height: 200%;
+  background-color: #DCEAF5;
+  color: #fff;
+}
+
+.timothy {
+  background-color: #CCCCB7;
+  text-align: right;
+  height: 450px;
+}
+
+.marie {
+  background-color: #7F7F4C;
+  text-align: left;
+  height: 500px;
+}
+
+.bram {
+  background-color: #DCEAF5;
+  text-align: right;
+  height: 450px;
+}
+
+.yuu {
+  background-color: #CCCCB7;
+  text-align: left;
+  height: 400px;
+}
+
+.tekstblok h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 180%;
+}
+
+.fototeam {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.tekstblok.links {
+  text-align: left;
+  background-color: #CCCCB7;
+}
+
+.tekstblok.rechts {
+  text-align: right;
+  background-color: #7F7F4C;
+}
+
+.analyse {
+  height: 700px;
+}
+
+.ontwikkeling {
+  height: 530px;
+}
+
+.structuur {
+  height: 540px;
+}
+
+.afwerking {
+  height: 520px;
+}
+
+.layout {
+  height: 540px;
+}
+
+.opvolging {
+  height: 520px;
+}
+
+.form {
+  border: 1px solid #F5F5DC;
+}
+
+form p {
+font-family: "Nunito", sans-serif;
+font-size: 22px;
+font-weight: 700;
+color: #7F7F4C;
+}
+
+.heading-form {
+  font-family: "Nunito", sans-serif;
+  font-size: 34px;
+  text-align: left;
+  font-weight: 900;
+}
+
+input {
+  display: block;
+  width:100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  background-color: #CCCCB7;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+}
+
+input:focus {
+    background-color: #7F7F4C;
+}
+
+.form-rechts {
+  width: 100%;
+  padding: 119px 0px;
+}
+
+.vraag  {
+  height: 172px;
+}
+
+.map {
+  width: 100%;
+}
+
+.blue {
+  background-color: #DCEAF5;
+  height: 587px;
+}
+
+.adres {
+  padding: 0px 0px;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+}
+iframe {
+  padding: 105px 0px;
+  width: 100%;
+  height: 450px;
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:active {
+  background-color: #DCEAF5;
+  border: 1px solid #DCEAF5;
+  color: #fff;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+#intro-vormgeving {
+  background-color: #DCEAF5;
+  height: 296px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 20px 40px;
+}
+
+
+/* footer css */
+
+footer {
+  background-color: #DCEAF5;
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: 'Open Sans','sans-serif s';
+  font-weight: 500;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  position:relative;
+  display:inline;
 }

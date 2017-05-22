@@ -41,6 +41,7 @@
     <meta name="application-name" content="GDM">
     <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
     <!-- Stylesheets: App -->
@@ -54,88 +55,137 @@
   </head>
 
   <body>
-    <!-- main navigation -->  
-    <nav id="main-navigation">
-    <!-- logo -->
-    <a id="nav-logo" href="#" title="logo, terug naar homepage"><img src="img/logo-desktop.png" alt="Logo Houtwolf"></a>
-    <!-- navigation -->
-    <ul>  
-        <li class="hasSubMenu">
-            <a href="#" title="Afgeronden projecten">portfolio</a>
+    <header class="grid_container">	
+         <!--logo-nav -->
+         <a href="index.html" class="logo-nav">
+            <img src="assets/images/houtwolf-logo.png" alt="Logo Houtwolf">
+        </a>
+     <!-- main navigation --> 
+			<nav id="main-navigation">
                 <ul>
-                    <li><a href="#" title="Portfoliogedeelte van het vak Vormgeving">Vormgeving</a></li>
-                    <li><a href="#" title="Portfoliogedeelte van het vak Webdesign II">Webdesign</a></li>
-                    <li><a href="#" title="Portfoliogedeelte van het vak Schetsen">Schetsen</a></li>
-                    <li><a href="#" title="Portfoliogedeelte van het vak LODO II">Lay-out</a></li>
+				    <li class="hasSubMenu">
+                        <a href="index.html" class="active" title="Projecten">Portfolio</a>
+                            <ul>
+                                <li><a href="vormgeving.html" title="Vormgeving">Vormgeving</a></li>
+                                <li><a href="lay-out.html" title="Lay-out en Digitale Opmaak">Lay-out</a></li>
+                            </ul>
+				    </li>
+                    <li>
+				        <a href="overons.html" title="Over houtwolf en zijn leden">over houtwolf</a>
+                    </li>
+                    <li>
+				        <a href="diensten.html" title="diensten">diensten</a>
+                    </li>
+                    <li>
+				        <a href="contact.html" title="contact">contact</a>
+                    </li>
                 </ul>
-        </li>
-        <li>
-            <a href="#" title="Over Houtwolf en zijn leden">over ons</a>
-        </li>
-        <li>
-            <a href="#" title="Aanbod en diensten">diensten</a>
-        </li>
-        <li>
-            <a href="#" title="Contactgegevens">contact</a>
-
-        </li>
-        <li>
-            <a href="#" title="Nieuws">nieuws</a>
-        </li>
-    </ul>
-</nav>
+				</div>
+		    </nav>
+	</header>
 
     <!-- Content -->
 
     <div class="grid_wrapper">
         <div class="grid_container">
             <div class="grid_row">
-                 <div class="grid__column-6">
-                    <h1>Project:<br>Verpakking</h1>
-                    <p>Vormgeven van een artikelpromotie<br>op een verpakking van een speldoos.</p>
-                 </div>
-                 <div class="grid__column-6">
-                    <img class="imgfront" src="img/verpakking003.jpg" alt="beeld van project Verpakking">
-                 </div>
-                 <div class="grid__column-6">
-                    <img class="imgfront" src="img/roughschets0023.jpg" alt="beeld van project Techniche Tekening">
-                 </div>
-                 <div class="grid__column-6">
-                    <h1>Project:<br>Technische Tekening</h1>
-                    <p>– Een eigen ontwerp omzetten<br>naar een technische tekening</p>
-                 </div>
-                 <div class="grid__column-6">
-                    <h1>Project:<br>Festival Breda Live</h1>
-                    <p>– Ontwerpen van een typografische affiche,<br>toegangsticket en informatieboekje voor een muziekfestival.</p>
-                 </div>
-                 <div class="grid__column-6>
-                    <img class="imgfront" src="img/festival0032.jpg" alt="beeld van project Festival Breda Live">
+                <div class="projecten">
+                 <div class="grid__column-4">
+                    <div class="blockproject" id="intro-tekst">
+                        <p><strong>Houtwolf</strong> is een internationaal graphic design agency waar de klant, zijn boodschap en goed design centraal staan.
+                        Onze studio wordt gekenmerkt door <strong>een strakke, eigentijdse visie</strong> met liefde voor het grafische werk en de visuele communicatie.</p>
+                    </div>
+                    <a id="Verpakking" class="block" href="#" title="Verpakking">  
+                        <img src="assets/images/verpakking001.jpg" alt="Project Verpakking" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/festival001.jpg" alt="Project festival" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/sippo001.jpg" alt="Project festival" class="blockproject">
+                    </a>
                  </div>
 
+                 <div class="grid__column-4">
+                    <a href="#" title="Speelkaarten">
+                        <img src="assets/images/gif-diertjes.gif" alt="Project Speelkaarten" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/verpakking001.jpg" alt="Project roughschets" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/festival001.jpg" alt="Project festival" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/sippo001.jpg" alt="Project festival" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/festival001.jpg" alt="Project festival" class="blockproject">
+                    </a>
+                 </div>
 
-
-
+                 <div class="grid__column-4">
+                    <div class= "blockproject" id="diensten-tekst">
+                        <p> <strong>- brand development<br>
+                            - logo design<br>
+                            - corporate identity<br>
+                            - print communications<br>
+                            - web design<strong></p>
+                    </div>
+                    <a href="#" title="">
+                        <img src="assets/images/festival001.jpg" alt="Project Verpakking" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/sippo001.jpg" alt="Project roughschets" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/verpakking001.jpg" alt="Project festival" class="blockproject">
+                    </a>
+                    <a href="#" title="">
+                        <img src="assets/images/sippo001.jpg" alt="Project festival" class="blockproject">
+                    </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
       <!-- Footer -->
+<div style="clear: both"></div>
+
 <div class="grid_wrapper footer-wrapper">
 	<div class="grid__container">
 		<div class="grid__row">
 			<div class="grid__column-12">
 				<footer class="footer">
-					<h1 class="hidden">Main Footer Website</h1>
 					<div class="grid__row">
 						<div class="grid__column-4">
-							Copyright
+							<p>Houtwolf - Keizer Karelstraat 32, <strong> 8000 BRUGGE </strong><br>
+                            Developed by Timothy D'hoe</p>
 						</div>
 						<div class="grid__column-4">
-							...
+                            <ul>
+                                <li>
+							         <a href="0499 12 46 30">t. 0499/12 46 30</a>
+                                 </li>
+                                <li>
+							         <a href="mailto:contact@houtwolf.com">contact@houtwolf.com</a>
+                                 </li>
+                             </ul>
 						</div>
 						<div class="grid__column-4">
-							Developed by....
+                            <ul>
+							    <li>
+                                    <a href="https://www.facebook.com/" target="blank" title="link naar facebook">facebook /</a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/" target="blank" title="link naar twitter">twitter /</a>
+                                </li>
+                                <li>  
+                                <a href="https://www.instagram.com/" target="blank" title="link naar instragram">instagram /</a>
+                                </li>
+                            </ul>
 						</div>
 					</div>
 				</footer>
