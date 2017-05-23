@@ -56,42 +56,101 @@
 
   <body>
       <!-- header navigatie -->
-      <div class="grid__wrapper">
-        <div class="grid__container">
-            <div class="grid__row">
-                <div class="grid__column-12">
-                    <nav>
-                        <ul>
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">contact</a></li>
-                        </ul>
-                    </nav>
+    <header class="grid_container">	
+         <!--logo-nav -->
+         <a href="index.html" class="logo-nav">
+            <img src="assets/images/houtwolf-logo.png" alt="Logo Houtwolf">
+        </a>
+     <!-- main navigation --> 
+			<nav id="main-navigation">
+                <ul>
+				    <li class="hasSubMenu">
+                        <a href="#" title="Projecten">Portfolio</a>
+                            <ul>
+                                <li><a href="#" title="Vormgeving">Vormgeving</a></li>
+                                <li><a href="#" title="Lay-out en Digitale Opmaak">Lay-out</a></li>
+                            </ul>
+				    </li>
+                    <li>
+				        <a href="#" title="Over houtwolf en zijn leden">over houtwolf</a>
+                    </li>
+                    <li>
+				        <a href="#" title="diensten">diensten</a>
+                    </li>
+                    <li>
+				        <a href="#" title="contact">contact</a>
+                    </li>
+                </ul>
+				</div>
+		    </nav>
+	</header>
 
-
-
-
-                </div>
-            </div>
-        </div>
-      </div>
 
       <!-- Body: content -->
-      <div class="grid__wrapper">
-        <div class="grid__container">
-            <div class="grid__row">
-                <div class="grid__column-3">
-                kolom 1
-                </div>
-                <div class="grid__column-3">
-                kolom 2
-                </div>
-                <div class="grid__column-3">
-                kolom 3
-                </div>
-                <div class="grid__column-3">
-                kolom 4
-                </div>
+
+    <div class="grid_wrapper">
+            <div class="grid_container">
+                <div class="grid_row">
+                    <div class="grid__column-4 projecten">   
+                        <div class="tekstblok">
+                            <h2>Lettertype en lettergewichten</h2>
+                            <p>Het gekozen lettertype voor titels en leestekst is <strong>Nunito.</strong> Nunito wordt doorheen de website in verschillende gewichten weergegeven.
+                            De hoofding <strong>&lt;h2&gt;</strong> wordt weergegeven in 44px met een lijnhoogte van 180%.<br>
+                            De body <strong>&lt;p&gt;</strong> krijgt een grootte van 24 pixels en naar gelang de situatie en plaats een interlinie van 40px of 200%.<br>
+                            <a href="https://fonts.google.com/specimen/Nunito" target="blank">Een link <strong>&lt;a&gt;</strong> wordt standaard weergegeven.</a><br>
+                            Vette tekst wordt tussen <strong>&lt;strong&gt;</strong> tags geplaatst.<br>
+                            Tekst wordt altijd op één van de gegeven kleurvlakken weergegeven. De tekst zelf heeft altijd een witte kleur (#fff)</p>
+                        </div>
+                    </div>
+                    <div class="grid__column-4">   
+                        <div class="tekstblok bgkleur">
+                            <h2>Kleur & Buttons</h2>
+                            <div class="kleur1">
+                                <div class="overlay">
+                                    <div class="kleurtekst">#F5F5DC</div>
+                                </div>
+                            </div>
+                            <div class="kleur2">
+                                <div class="overlay">
+                                    <div class="kleurtekst">#DCEAF5</div>
+                                </div>
+                            </div>
+                            <div class="kleur3">
+                                <div class="overlay">
+                                    <div class="kleurtekst">#CCCCB7</div>
+                                </div>
+                            </div>
+                            <div class="kleur4">
+                                <div class="overlay">
+                                    <div class="kleurtekst">#7F7F4C</div>
+                                </div>
+                            </div>
+                            <div>
+                                <form>
+                                    <input type="button" class="button" value="Verzenden">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                <div class="grid__column-4">
+                    <div class="image">
+                        <a id="Verpakking" class="block" href="#" title="link naar project Verpakking">  
+                            <img src="assets/images/verpakking001.jpg" alt="Project Verpakking" class="blockproject">
+                        </a>
+                            <div class="overlay">
+                                <div class="naam">Verpakking</div>
+                            </div>
+                    </div>
+                    <div class="image">
+                        <a href="#" title="" class="block">
+                            <img src="assets/images/breda004.jpg" alt="Project Booklet Breda" class="blockproject">
+                        </a>
+                            <div class="overlay">
+                                <div class="naam">Festival Booklet</div>
+                            </div>
+                    </div>
+
+
             </div>
         </div>
       </div>
@@ -99,21 +158,40 @@
 
 
       <!-- Footer -->
+<div style="clear: both"></div>
+
 <div class="grid_wrapper footer-wrapper">
 	<div class="grid__container">
 		<div class="grid__row">
 			<div class="grid__column-12">
 				<footer class="footer">
-					<h1 class="hidden">Main Footer Website</h1>
 					<div class="grid__row">
 						<div class="grid__column-4">
-							Copyright
+							<p>Houtwolf - Keizer Karelstraat 32, <strong> 8000 BRUGGE </strong><br>
+                            Developed by Timothy D'hoe</p>
 						</div>
 						<div class="grid__column-4">
-							...
+                            <ul>
+                                <li>
+							         <a href="0499 12 46 30">t. 0499/12 46 30</a>
+                                 </li>
+                                <li>
+							         <a href="mailto:contact@houtwolf.com">contact@houtwolf.com</a>
+                                 </li>
+                             </ul>
 						</div>
 						<div class="grid__column-4">
-							Developed by....
+                            <ul>
+							    <li>
+                                    <a href="https://www.facebook.com/" target="blank" title="link naar facebook">facebook /</a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/" target="blank" title="link naar twitter">twitter /</a>
+                                </li>
+                                <li>  
+                                <a href="https://www.instagram.com/" target="blank" title="link naar instragram">instagram /</a>
+                                </li>
+                            </ul>
 						</div>
 					</div>
 				</footer>

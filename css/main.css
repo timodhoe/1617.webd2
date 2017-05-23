@@ -50,6 +50,8 @@ img {
   backface-visibility: hidden;
 }
 
+/* Hovereffect afbeeldingen */
+
 .overlay .naam {
   transition: .5s ease;
   opacity: 0;
@@ -62,7 +64,6 @@ img {
 .naam {
   color: #fff;
   font-family: "Nunito";
-  font-size: 24px;
   font-weight: 700;
   text-align: center;
   font-size: 44px;
@@ -82,6 +83,8 @@ img {
 .image:hover .naam {
   opacity: 1
 }
+
+/* Tekst */
 
 #intro-tekst {
   background-color: #DCEAF5;
@@ -116,6 +119,61 @@ img {
   background-color: #DCEAF5;
   color: #fff;
 }
+
+/* Styleguide kleurvlakken */
+
+.bgkleur {
+  height: 250px;
+}
+
+.kleurtekst {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+.kleur1 {
+  background-color: #F5F5DC;
+  display: block;
+  position: relative;
+  width: 40%;
+  padding: 60px 10px;
+  margin: 100px 10px 10px 10px;
+  border: 1px solid #fff;
+}
+
+.kleur2 {
+  background-color: #DCEAF5;
+  display: block;
+  position: relative;
+  float: right;
+  width: 40%;
+  padding: 60px 10px;
+  margin: -163px 10px 10px 10px;
+  border: 1px solid #fff;
+}
+
+.kleur3 {
+  background-color: #CCCCB7;
+  display: block;
+  position: relative;
+  width: 40%;
+  padding: 60px 10px;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid #fff;
+}
+
+.kleur4 {
+  background-color: #7F7F4C;
+  display: block;
+  position: relative;
+  float: right;
+  width: 40%;
+  padding: 60px 10px;
+  margin: -163px 10px 10px 10px;
+  border: 1px solid #fff;
+}
+
+/* Over Houtwolf */
 
 .timothy {
   background-color: #CCCCB7;
